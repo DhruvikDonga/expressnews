@@ -39,9 +39,9 @@
 >open the expressnews folder which is a backend folder 
 
 **Add this additional files in newsAPI app directory:-**
->![news_text_classification.h5](https://drive.google.com/file/d/1B8FQMW2zXtMHukGr0t_JyjdJaEkXB0-E/view)
->![encoder](https://drive.google.com/file/d/1-BM0RC-uekunmd0BNP367jqdQ6aTM2Dd/view)
->![tokenizer.pickle](https://drive.google.com/file/d/1FcukFsb9fMFbuByJzz4MO7MuSge5Kz1w/view)
+>[news_text_classification.h5](https://drive.google.com/file/d/1B8FQMW2zXtMHukGr0t_JyjdJaEkXB0-E/view)
+>[encoder](https://drive.google.com/file/d/1-BM0RC-uekunmd0BNP367jqdQ6aTM2Dd/view)
+>[tokenizer.pickle](https://drive.google.com/file/d/1FcukFsb9fMFbuByJzz4MO7MuSge5Kz1w/view)
 
 **Migrate the databases to the database system**
 `python manage.py makemigrations`
@@ -68,7 +68,7 @@
 >This will start development server on http://localhost:8081/ . This will be the userinterface of application
 
 ## Colab file DL implementaion
-![link](https://colab.research.google.com/drive/1HUWJuFNBZzTebgVplXx4snJEn0cmaUku?usp=sharing)
+[link](https://colab.research.google.com/drive/1HUWJuFNBZzTebgVplXx4snJEn0cmaUku?usp=sharing)
 
 
 ## Flow chart
