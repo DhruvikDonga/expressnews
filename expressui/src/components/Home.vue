@@ -101,7 +101,7 @@ export default {
         alert:true,
         cntsave:'',
         items: [
-        'Politics' ,'buisness','tech','sports','army'
+        'politics' ,'buisness','tech','sports','army'
       ],
         secat:'',
       offset: true,

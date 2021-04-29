@@ -15,6 +15,7 @@
 
 - User authentication system implementation using Json web tokens
 - Implementation of news saving feature for users in their feeds using ManytoMany fields from news table to users table
+- Implementation of text classification WRNN algorithm using tensorflow and keras in the backend
 - News api to display the scraped news
 - Celery workers to scrap the news from the source urls using the rabbitmq server as the broker service and save in database
 
@@ -36,6 +37,11 @@
 **Project has requrements.txt file so install all the requirements:-**
 `py -m pip install -r requirements.txt`
 >open the expressnews folder which is a backend folder 
+
+**Add this additional files in newsAPI app directory:-**
+>![news_text_classification.h5](https://drive.google.com/file/d/1B8FQMW2zXtMHukGr0t_JyjdJaEkXB0-E/view)
+>![encoder](https://drive.google.com/file/d/1-BM0RC-uekunmd0BNP367jqdQ6aTM2Dd/view)
+>![tokenizer.pickle](https://drive.google.com/file/d/1FcukFsb9fMFbuByJzz4MO7MuSge5Kz1w/view)
 
 **Migrate the databases to the database system**
 `python manage.py makemigrations`
@@ -60,6 +66,10 @@
 **Run the frontend server**
 `npm run serve`
 >This will start development server on http://localhost:8081/ . This will be the userinterface of application
+
+## Colab file DL implementaion
+![link](https://colab.research.google.com/drive/1HUWJuFNBZzTebgVplXx4snJEn0cmaUku?usp=sharing)
+
 
 ## Flow chart
 
