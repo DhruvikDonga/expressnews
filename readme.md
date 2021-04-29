@@ -10,7 +10,7 @@
  ## Description:-
   Expressnews is a progressive web application. The user interface of application is developed in Vuejs with Vuetify framework and backend is developed in Django a Python framework . The application has a worker thread which is developed using **Celery** a python library which is runs using **RabbitMQ server** . **Celery** scraps the news briefing from the news sources and display them to the users . The users can save the news post in their feeds.
 
-**Video link for web app:-**[click](https://drive.google.com/file/d/1bJ2L81fipzrkasQsCBoGRqP3UFtNlPXA/view?usp=sharing)
+**Video link for web app:-**[![Expressnews](https://i9.ytimg.com/vi_webp/Fzwz9xvECOA/mqdefault.webp?time=1619656200000&sqp=CIj8p4QG&rs=AOn4CLBNoVg2xVJCpMlDuT3sPWKB3FJn2Q)](https://youtu.be/Fzwz9xvECOA "Project Demo")
 ## Features :-
 
 - User authentication system implementation using Json web tokens
